@@ -1,3 +1,5 @@
+import math
+
 p = int(input())
 
 cont = 0
@@ -8,11 +10,15 @@ while cont < 10:
 
     primo = True
 
-    for i in range(3, p):
-        if(p%i == 0):
-            primo = False
-            p += 1
-            break
+    if p%2 == 0:
+        primo = False
+        p += 1
+    else:
+        for i in range(3, int(math.sqrt(p)) + 1, 2):
+            if(p%i == 0):
+                primo = False
+                p += 1
+                break
 
     if primo :
         cont += 1
