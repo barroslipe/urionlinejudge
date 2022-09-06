@@ -1,0 +1,8 @@
+print(f"{'<AMO FAZER EXERCICIO NO URI>'}")
+print(f"{'<'}{'AMO FAZER EXERCICIO NO URI':>30}{'>'}")
+print(f"{'<'}{'AMO FAZER EXERCICIO NO URI':.20}{'>'}")
+print(f"{'<'}{'AMO FAZER EXERCICIO NO URI':<20}{'>'}")
+print(f"{'<'}{'AMO FAZER EXERCICIO NO URI':<30}{'>'}")
+print(f"{'<'}{'AMO FAZER EXERCICIO NO URI':>.30}{'>'}")
+print(f"{'<'}{'AMO FAZER EXERCICIO NO URI':>30.20}{'>'}")
+print(f"{'<'}{'AMO FAZER EXERCICIO NO URI':<30.20}{'>'}")
